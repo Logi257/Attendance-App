@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".MarkActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark your Attendance Here"
+        android:textColor="#F3695F"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+    <CheckBox
+        android:id="@+id/present"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:height="49dp"
+        android:elegantTextHeight="true"
+        android:text="Present"
+        android:textColor="#F3695F"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <CheckBox
+        android:id="@+id/leave"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:height="49dp"
+        android:elegantTextHeight="true"
+        android:text="Leave"
+        android:layout_marginRight="10dp"
+        android:textColor="#F3695F"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="235dp" />
+
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="296dp"
+        android:layout_marginTop="20dp"
+        android:outlineAmbientShadowColor="@color/orange"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#F3695F"
+        android:background="@color/orange"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteY="657dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AdminActivity">
+    <ImageView
+        android:id="@+id/adminImage"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:src="@drawable/teacher"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/admin_name"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:inputType="textCapCharacters"
+        android:text="Name : ADMIN"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:ignore="TextViewEdits" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/orange"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/attendance"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/orange"
+                android:src="@drawable/baseline_add_circle_24"></ImageView>
+
+            <TextView
+                android:id="@+id/notes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-10dp"
+                android:text="Add Student"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="-350dp"
+            android:layout_marginTop="240dp"
+            android:background="@color/orange"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/student"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/orange"
+                android:src="@drawable/baseline_reviews_24"></ImageView>
+
+            <TextView
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-1dp"
+                android:text="View Attendance"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

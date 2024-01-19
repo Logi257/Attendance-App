@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/back_final"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+    <Spinner
+        android:id="@+id/userTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:textSize="18sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="50dp"
+            android:elegantTextHeight="true"
+            android:ems="10"
+            android:textStyle="bold"
+            android:hint="Name"
+            android:drawableStart="@drawable/baseline_person_24"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="50dp"
+            android:elegantTextHeight="true"
+            android:drawableStart="@drawable/baseline_security_24"
+            android:paddingTop="10dp"
+            android:ems="10"
+            android:textStyle="bold"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="18sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/roll_no"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:drawableStart="@drawable/baseline_format_list_numbered_24"
+        android:fontFamily="sans-serif"
+        android:hint="Roll No"
+        android:inputType="number"
+        android:paddingVertical="8dp"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@color/orange"
+        android:elegantTextHeight="true"
+        android:layout_marginTop="20dp"
+        android:minHeight="50dp"
+        android:onClick="login"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+
+
+
+</LinearLayout>

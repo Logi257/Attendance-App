@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1d3b55</color>
+    <color name="secondary">#9cbfdd</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#F3695F</color>
+    <color name="accent">#79F3695F</color>
+    <color name="grey">#808080 </color>
+    <color name="picture">#939597</color>
+    <color name="blue">#00539C</color>
+    <color name="black">#000000</color>
+    <color name="peach">#EEA47F</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#008000</color>
+    <color name="navy"> #4169e1</color>
+
+</resources>
